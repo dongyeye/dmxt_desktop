@@ -1,0 +1,32 @@
+app-welcome {
+  #wel{
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url("assets/pw_maze_black_2X.png") left top repeat;
+    text-align: center;
+    #content{
+      margin-top: 15%;
+      margin-bottom: 10%;
+      padding: 50px;
+      #name{
+        font-size: 3em;
+        color: white;
+      }
+      #des{
+        color: white;
+      }
+      .ant-row{
+        padding: 1%;
+      }
+      #but{
+        height: 50px;
+        width: 17%;
+      }
+
+    }
+  }
+}
